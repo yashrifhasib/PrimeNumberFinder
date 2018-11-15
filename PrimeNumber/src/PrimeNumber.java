@@ -55,14 +55,14 @@ public class PrimeNumber {
             int input = stdin.nextInt();
             if ( input == 0 )
                 break;
-            String ifUnigue = "";
+            String ifUnique = "";
             if ( IsPrime( input ) ) {
                 out.println( "That is a prime number." );
             }
             else {
                 if ( input == 1 )
-                    ifUnigue += "That is a unique number.";
-                out.println( "That is not a prime number. " + ifUnigue );
+                    ifUnique += "That is a unique number.";
+                out.println( "That is not a prime number. " + ifUnique );
             }
             out.print( "How many prime numbers do you need after your starting number: " );
             int numberPrimes = stdin.nextInt();
