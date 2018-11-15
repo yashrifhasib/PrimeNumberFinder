@@ -1,2 +1,2 @@
 # PrimeNumberFinder
-Find a number of prime numbers after the given number.
+Find if a number is a prime number and find the given number of prime numbers after the initial number.
